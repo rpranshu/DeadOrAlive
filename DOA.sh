@@ -1,5 +1,5 @@
 #!/bin/bash
-resize -s 11 69
+resize -s 15 69
 clear
 tput setaf 172;tput bold;echo $'            -= Built with <3 by PRANSHU RANAKOTI  ©2018 =-';tput sgr0;
 tput setaf 1;echo '
