@@ -9,7 +9,7 @@ tput setaf 1;echo '
 ██. ██ ▐█▄▄▌▐█ ▪▐▌██. ██     ▐█▌.▐▌▐█•█▌    ▐█ ▪▐▌▐█▌▐▌▐█▌ ███ ▐█▄▄▌
 ▀▀▀▀▀•  ▀▀▀  ▀  ▀ ▀▀▀▀▀•      ▀█▄▀▪.▀  ▀     ▀  ▀ .▀▀▀ ▀▀▀. ▀   ▀▀▀ '; tput sgr0
 
-echo $'\nA simple tool to check whether a particular host is Dead or Alive!'
+echo 'A simple tool to check whether a particular host is Dead or Alive!'
 
 main ()
 {
