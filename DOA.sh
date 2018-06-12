@@ -9,11 +9,11 @@ tput setaf 1;echo '
 ██. ██ ▐█▄▄▌▐█ ▪▐▌██. ██     ▐█▌.▐▌▐█•█▌    ▐█ ▪▐▌▐█▌▐▌▐█▌ ███ ▐█▄▄▌
 ▀▀▀▀▀•  ▀▀▀  ▀  ▀ ▀▀▀▀▀•      ▀█▄▀▪.▀  ▀     ▀  ▀ .▀▀▀ ▀▀▀. ▀   ▀▀▀ '; tput sgr0
 
-echo 'A simple tool to check whether a particular host is Dead or Alive!'
+echo $'\nA simple tool to check whether a particular host is Dead or Alive!'
 
 main ()
 {
-echo $'\n\nEnter\n 1 for Manual \n2 for reading from a file \n9 to reload the script\n0 to exit'
+echo $'\nEnter\n 1 for Manual \n2 for reading from a file \n9 to reload the script\n0 to exit'
 read opt
 }
 main
