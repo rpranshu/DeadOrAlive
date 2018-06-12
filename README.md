@@ -2,10 +2,7 @@
 A simple tool to check whether a particular host is alive or not!
 
 # Prerequisites
-- [Metasploit framework](https://metasploit.help.rapid7.com/docs/installing-the-metasploit-framework)
-- A **linux/unix** based system
-- [ngrok](https://ngrok.com/) <br>
-> Please note that ngrok is not not a necessity and is required only for performing over the internet (WAN) attack!
+A *nix system
 # Installation
 ```
 chmod +x install.sh
