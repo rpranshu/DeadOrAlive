@@ -1,5 +1,5 @@
 #!/bin/bash
-resize -s 15 69
+resize -s 17 69
 clear
 tput setaf 172;tput bold;echo $'            -= Built with <3 by PRANSHU RANAKOTI  ©2018 =-';tput sgr0;
 tput setaf 1;echo '
@@ -8,6 +8,8 @@ tput setaf 1;echo '
 ▐█· ▐█▌▐▀▀▪▄▄█▀▀█ ▐█· ▐█▌     ▄█▀▄ ▐▀▀▄     ▄█▀▀█ ██▪  ▐█·▐█▐█•▐▀▀▪▄
 ██. ██ ▐█▄▄▌▐█ ▪▐▌██. ██     ▐█▌.▐▌▐█•█▌    ▐█ ▪▐▌▐█▌▐▌▐█▌ ███ ▐█▄▄▌
 ▀▀▀▀▀•  ▀▀▀  ▀  ▀ ▀▀▀▀▀•      ▀█▄▀▪.▀  ▀     ▀  ▀ .▀▀▀ ▀▀▀. ▀   ▀▀▀ '; tput sgr0
+
+echo $'\nA simple tool to check whether a particular host is Dead or Alive!'
 
 main ()
 {
