@@ -41,6 +41,8 @@ if [[ $opt -eq "1" ]]; then
 		tput setaf 2; echo "[+] Congrats the host $arg ($ip) is live!"; tput sgr0
 	elif [[ $(ping -t 1 $arg) =~ "timeout" ]]; then
 		tput setaf 9; echo "[-] Bummer.... The host $arg ($ip) is down"; tput sgr0
+	elif [[ $(ping -q -c 1 $arg &> a.txt; cat a.txt) =~ "cannot resolve" ]]; then
+		tput setaf 11; echo "[!] No such Hosts found, please input a valid dns or IP address"; rm a.txt; tput sgr0
 	fi
 	tput blink;tput setaf 1;tput bold;
 	echo "Press any key to continue";tput sgr0
@@ -59,6 +61,8 @@ elif [[ $opt -eq "2" ]]; then
 		tput setaf 2; echo "[+] Congrats the host $arg ($ip) is live!"; tput sgr0
 	elif [[ $(ping -t 1 $arg;) =~ "timeout" ]]; then
 		tput setaf 9; echo "[-] Bummer.... The host $arg ($ip) is down"; tput sgr0
+	if [[ $(ping -q -c 1 $arg &> a.txt; cat a.txt) =~ "cannot resolve" ]]; then
+		tput setaf 11; echo "[!] No such Hosts found, please input a valid dns or IP address"; rm a.txt; tput sgr0
 	fi
 	done < "$input"
 	tput blink;tput setaf 1;tput bold;
