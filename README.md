@@ -10,8 +10,7 @@ A simple & smart tool with a menu driven UI to check whether a particular host i
 A *nix system
 # Installation
 ```
-chmod +x install.sh
-./install.sh
+. ./install.sh
 ```
 Then from the next time just type in 
 ```
