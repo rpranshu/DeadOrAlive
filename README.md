@@ -6,7 +6,7 @@ A simple & smart tool with a menu driven UI to check whether a particular host i
 
 **Dead or Alive in action**
 
-#Changelog
+# Changelog
 
 **Following updates have been added:**
 
