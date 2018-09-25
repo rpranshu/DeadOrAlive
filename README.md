@@ -6,6 +6,15 @@ A simple & smart tool with a menu driven UI to check whether a particular host i
 
 **Dead or Alive in action**
 
+#Changelog
+
+**Following updates have been added:**
+
+1. Support for hosts that have blocked ICMP requests has been added!
+2. Fixed some bugs while reading the hosts file.
+3. Performance improvements.
+4. Changed the installation file to clear the clutter after setup.
+
 # Prerequisites
 A *nix system
 # Installation
